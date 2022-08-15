@@ -1,0 +1,41 @@
+.item {
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: #c2e7f0;
+}
+
+.item:last-of-type {
+    border-bottom: none;
+}
+
+.item figure {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
+
+.item blockquote {
+    margin: 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #212929;
+}
+
+.item p {
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+.item figcaption {
+    font-style: normal;
+    text-align: center;
+    color: #1e2e2e;
+    margin: 20px 5px;
+}
